@@ -5,7 +5,7 @@ import chess.svg
 from IPython.display import SVG, display
 
 engine = chess.engine.SimpleEngine.popen_uci(
-    r"C:\Users\anton\OneDrive\Документи\KPI\3 курс\1 semester\ПІІС\piisLabs\lab3\chess\stockfish_15_win_x64_avx2\stockfish_15_x64_avx2.exe")
+    r"C:\Users\Yevhenii\KPIDOCS\piisLabs\lab3\stockfish_15_win_x64_avx2\stockfish_15_x64_avx2.exe")
 
 
 def stockfish_eval(board_instance, isMax):
